@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3F Amazon Cont</title>
+  <style>
+    :root {
+      --links: rgb(0, 113, 133);
+      --price: rgb(0, 118, 0);
+      --cart: rgb(215, 216, 20);
+      --buy: rgb(255, 164, 28);
+    }
+
+    .container {
+      margin-left: 20px;
+    }
+
+    a {
+      color: var(--links);
+    }
+
+    .price {
+      color: var(--price);
+    }
+
+    button {
+      color: #000;
+      font-size: 1.2rem;
+      border: none;
+      height: 40px;
+      width: 150px;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+
+    .add-to-cart {
+      background-color: var(--cart);
+    }
+
+    .buy-now {
+      background-color: var(--buy);
+      margin-left: 13px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <a href="https://amazon.com" target="_blank">Back to Amazon</a>
+    <h1>Nick Black Running Shoes</h1>
+    <p class="price">$39 - In Stock</p>
+    <p>Free delivery tomorrow</p>
+  </div>
+  
+  <button class="add-to-cart">Add to Cart</button>
+  <button class="buy-now">Buy Now</button>
+</body>
+</html>
