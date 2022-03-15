@@ -8,6 +8,7 @@
   <style>
     :root {
       --links: rgb(0, 113, 133);
+      --link-orange: rgb(240, 156, 32);
       --price: rgb(0, 118, 0);
       --cart: rgb(215, 216, 20);
       --buy: rgb(255, 164, 28);
@@ -19,6 +20,11 @@
 
     a {
       color: var(--links);
+      transition: color 0.20s;
+    }
+
+    a:hover {
+      color: var(--link-orange);
     }
 
     .price {
