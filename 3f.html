@@ -11,7 +11,9 @@
       --link-orange: rgb(240, 156, 32);
       --price: rgb(0, 118, 0);
       --cart: rgb(215, 216, 20);
+      --cart-dark: rgb(160, 160, 15);
       --buy: rgb(255, 164, 28);
+      --buy-dark: rgb(197, 127, 21);
     }
 
     .container {
@@ -43,11 +45,29 @@
 
     .add-to-cart {
       background-color: var(--cart);
+      transition: background-color 0.20s, opacity 0.20s;
+    }
+
+    .add-to-cart:hover {
+      background-color: var(--cart-dark);
+    }
+
+    .add-to-cart:active {
+      opacity: 0.3;
     }
 
     .buy-now {
       background-color: var(--buy);
       margin-left: 13px;
+      transition: background-color 0.20s, opacity 0.20s;
+    }
+
+    .buy-now:hover {
+      background-color: var(--buy-dark);
+    }
+
+    .buy-now:active {
+      opacity: 0.3;
     }
   </style>
 </head>
