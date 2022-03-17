@@ -6,10 +6,27 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>4K Margin/Padding Together</title>
   <style>
-    
+    button {
+      background-color: green;
+      color: white;
+      font-size: 1.2rem;
+      cursor: pointer;
+      border: none;
+      margin: 0 10px;
+      padding: 10px 25px;
+      box-sizing: border-box;
+      transition: padding 0.20s, margin 0.20s;
+    }
+
+    button:hover {
+      padding: 10px 35px;
+      margin: 0;
+    }
   </style>
 </head>
 <body>
-  
+  <button>One</button>
+  <button>Two</button>
+  <button>Three</button>
 </body>
 </html>
