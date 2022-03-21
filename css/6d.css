@@ -1,0 +1,22 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+p {
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  font-size: 65px;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 30px;
+}
+
+span {
+  text-decoration: underline;
+}
