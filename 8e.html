@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>8E - Uber Ride Request</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    div {
+      width: 350px;
+      margin: 0 auto;
+    }
+    h1 {
+      margin: 0 0 10px 0;
+      font-size: 2.5em;
+    }
+    input {
+      width: 100%;
+      border: none;
+      background-color: #eee;
+      font-size: 1.1rem;
+      padding: 10px;
+    }
+    .pickup {
+      margin-bottom: 10px;
+    }
+    .dropoff {
+      margin-bottom: 25px;
+    }
+    button {
+      cursor: pointer;
+      border: none;
+      font-size: 1.1rem;
+      padding: 15px;
+    }
+    .request_now {
+      color: #eee;
+      background-color: #000;
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div>
+    <h1>Request a Ride Now</h1>
+    <input type="text" class="pickup" placeholder="Enter pickup location">
+    <input type="text" class="dropoff" placeholder="Enter destination">
+    <button class="request_now">Request Now</button>
+    <button class="later">Schedule for Later</button>
+  </div>
+</body>
+</html>
