@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>10E - Multiple Cards</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+    }
+    div {
+      display: inline-block;
+      border: 1px solid #ddd;
+      box-shadow: -5px -5px 10px rgba(0, 0, 0, 0.4), 5px 5px 10px rgba(0, 0, 0, 0.4);
+    }
+    img {
+      width: 250px;
+      height: 300px;
+      object-fit: cover;
+    }
+    .user {
+      font-size: 1.5rem;
+      font-weight: bold;
+      margin: 5px 0 0 15px;
+    }
+    .friends {
+      color: #bbb;
+    }
+    button {
+      width: 130px;
+      height: 40px;
+      border: none;
+      border-radius: 5px;
+      background-color: #0275d8;
+      font-weight: bold;
+      font-size: 1.0rem;
+      color: #fff;
+      cursor: pointer;
+    }
+    button,
+    .friends {
+      margin: 5px 0 10px 15px;
+    }
+    .card {
+      display: inline-block;
+      margin: 40px 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img src="img/cat.jpg" alt="cat image">
+    <p class="user">Bullet</p>
+    <p class="friends">78 mutual friends</p>
+    <button>Add Friend</button>
+  </div>
+  <div class="card">
+    <img src="img/dog.jpg" alt="cat image">
+    <p class="user">Luna</p>
+    <p class="friends">3,550 mutual friends</p>
+    <button>Add Friend</button>
+  </div>
+  <div class="card">
+    <img src="img/rabbit.jpg" alt="cat image">
+    <p class="user">Fluffy</p>
+    <p class="friends">1,504 mutual friends</p>
+    <button>Add Friend</button>
+  </div>
+</body>
+</html>
