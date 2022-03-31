@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>12F - Search</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    .container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 10px;
+      height: 50px;
+      background-color: purple;
+    }
+    .homepage {
+      color: #fff;
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    .search {
+      color: purple;
+      font-size: 1.0rem;
+      padding: 5px;
+      width: 100%;
+    }
+    .download {
+      cursor: pointer;
+      color: #fff;
+      background-color: purple;
+      border: 2px solid #fff;
+      font-size: 1.1rem;
+      padding: 5px;
+    }
+    .section1 {
+      width: 100px;
+    }
+    .section2 {
+      flex: 1;
+      max-width: 400px;
+    }
+    .section3 {
+      width: 100px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="section1">
+      <a href="#" class="homepage">Home</a>
+    </div>
+    <div class="section2">
+      <input type="text" class="search" placeholder="Search">
+    </div>
+    <div class="section3">
+      <button class="download">Download</button>
+    </div>
+  </div>
+</body>
+</html>
