@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>12H - Tweets</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    p {
+      margin: 0;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      width: 400px;
+    }
+
+    .user {
+      display: flex;
+      align-items: center;
+      margin-bottom: 15px;
+    }
+
+    .image {
+      width: 80px;
+    }
+
+    img {
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    .details {
+      flex: 1;
+    }
+
+    .name {
+      font-size: 1.3rem;
+      font-weight: bold;
+    }
+
+    .details1,
+    .details2 {
+      margin: 2px 0;
+      color: #aaa;
+      font-weight: bold;
+    }
+
+    button {
+      background-color: #0275d8;
+      color: #fff;
+      border: none;
+      font-size: 1.2rem;
+      font-weight: bold;
+      padding: 10px 15px;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="user">
+      <div class="image">
+        <img src="img/cat.jpg" alt="cat photo">
+      </div>
+      <div class="details">
+        <p class="name">Bullet</p>
+        <p class="details1">Crazy Kitty</p>
+        <p class="details2">Popular</p>
+      </div>
+      <div class="follow">
+        <button>Follow</button>
+      </div>
+    </div>
+    <div class="user">
+      <div class="image">
+        <img src="img/dog.jpg" alt="dog photo">
+      </div>
+      <div class="details">
+        <p class="name">Bullet</p>
+        <p class="details1">Spunky Dog</p>
+        <p class="details2">Popular</p>
+      </div>
+      <div class="follow">
+        <button>Follow</button>
+      </div>
+    </div>
+    <div class="user">
+      <div class="image">
+        <img src="img/rabbit.jpg" alt="rabbit photo">
+      </div>
+      <div class="details">
+        <p class="name">Bullet</p>
+        <p class="details1">Crazy Kitty</p>
+        <p class="details2">Popular</p>
+      </div>
+      <div class="follow">
+        <button>Follow</button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
