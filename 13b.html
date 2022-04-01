@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>13B</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    .container {
+      height: 50px;
+      display: flex;
+    }
+    .left {
+      background-color: lightpink;
+      width: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    span {
+      color: #fff;
+      background-color: #000;
+    }
+    .right {
+      background-color: lightblue;
+      width: 200px;
+    }
+    .row2 {
+      display: flex;
+      justify-content: space-between;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="left"></div>
+    <div class="right">
+      <div class="row1">row1</div>
+      <div class="row2">
+        <span>row2</span>
+        <span>row2</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
