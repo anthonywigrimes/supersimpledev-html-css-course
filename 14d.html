@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>14 D</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    p {
+      margin: 10px 0;
+    }
+
+    body {
+      height: 3000px;
+    }
+
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.3);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+    }
+
+    .sidebar {
+      background-color: green;
+      color: #fff;
+      position: fixed;
+      width: 100px;
+      top: 0;
+      right: 0;
+      bottom: 0;
+    }
+
+    .modal {
+      background-color: #fff;
+      padding: 20px;
+      width: 400px;
+      border-radius: 10px;
+    }
+
+    .modal-title {
+      font-weight: bold;
+      font-size: 2.5rem;
+    }
+
+    .modal-text {
+      font-size: 1.4rem;
+    }
+
+    .modal-close {
+      border: none;
+      cursor: pointer;
+      background-color: lightseagreen;
+      font-size: 1.2rem;
+      color: #fff;
+      padding: 5px 15px;
+      border-radius: 5px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="sidebar">right sidebar</div>
+  <div class="overlay">
+    <div class="modal">
+      <p class="modal-title">Modal Title</p>
+      <p class="modal-text">This is a modal</p>
+      <button class="modal-close">Close</button>
+    </div>
+  </div>  
+</body>
+</html>
