@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>15F</title>
+  <style>
+    body {
+      height: 3000px;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    .container {
+      background-color: #aaa;
+      height: 500px;
+      width: 450px;
+      position: relative;
+    }
+
+    img {
+      width: 280px;
+      position: absolute;
+      top: 70px;
+      left: 75px;
+    }
+
+    .discount {
+      background-color: black;
+      color: white;
+      font-size: 1.2rem;
+      position: absolute;
+      padding: 5px 15px;
+      top: 10px;
+      right: 0;
+    }
+
+    .add-to-cart {
+      background-color: rgba(255, 255, 255, 0.6);
+      width: 450px;
+      height: 150px;
+      position: absolute;
+      bottom: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .btn-add-to-cart {
+      cursor: pointer;
+      border: 2px solid #000;
+      background-color: #fff;
+      font-size: 1.4rem;
+      font-weight: 700;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="img/hitman_shirt.png" alt="hitman game shirt">
+    <p class="discount">20% OFF</p>
+    <div class="add-to-cart">
+      <button class="btn-add-to-cart">Add to Cart</button>
+    </div>
+  </div>
+</body>
+</html>
