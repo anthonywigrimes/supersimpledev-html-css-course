@@ -1,0 +1,9 @@
+font-family: Roboto, Arial, sans-serif;
+
+search gray = #f8f8f8
+
+gray arounf mic = #f9f9f9
+
+gray pill buttons = #f2f2f2
+
+red for notifications = #fd0017
